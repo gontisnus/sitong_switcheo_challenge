@@ -1,6 +1,8 @@
 var sum_to_n_a = function (n) {
     // recursive method
-    if (n === 1) {
+    if (n === 0) {
+        return 0;
+    } else if (n === 1) {
         return 1;
     } else {
         return sum_to_n_a(n - 1) + n;
