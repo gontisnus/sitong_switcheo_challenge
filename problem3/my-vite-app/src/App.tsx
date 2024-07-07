@@ -1,11 +1,11 @@
 import React from 'react';
-import WalletPage from './components/walletPage'; // Adjust the import path accordingly
+import WalletPage from './components/walletPage'; 
 
 const App: React.FC = () => {
   return (
     <div>
       <h1>Wallet</h1>
-      <WalletPage />
+      <WalletPage classes='' />
     </div>
   );
 }

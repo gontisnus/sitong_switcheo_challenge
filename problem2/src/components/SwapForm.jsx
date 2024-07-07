@@ -53,7 +53,7 @@ const CurrencySwapForm = () => {
             const { amount, fromCurrency, toCurrency } = values;
             const rate = prices[fromCurrency] / prices[toCurrency];
             const convertedAmount = amount * rate;
-            setConvertedAmount(convertedAmount); // Set converted amount to state
+            setConvertedAmount(convertedAmount); 
         },
     });
 
@@ -127,7 +127,7 @@ const CurrencySwapForm = () => {
                     </div>
 
                     <button class='form_item' type="submit">Convert</button>
-                    {convertedAmount !== null && ( // Conditionally render converted amount
+                    {convertedAmount !== null && ( 
                         <div>
                             Converted amount: {convertedAmount.toFixed(2)} {formik.values.toCurrency}
                         </div>

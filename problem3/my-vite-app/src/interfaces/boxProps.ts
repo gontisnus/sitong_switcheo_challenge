@@ -4,6 +4,6 @@ interface boxProps {
 }
 
 export interface Props extends boxProps {
-    children: React.ReactNode;
+    //children: React.ReactNode;
 }
 
