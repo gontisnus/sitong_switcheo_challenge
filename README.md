@@ -51,3 +51,5 @@ The following are anti-patterns and inefficiencies:
    the Priority of each balance base on their blockchain which does not exist in the interfaces now.
 
 6.  The need of self-define hook useWalletBalances() to fetch balances from database
+
+7.  When sorting balances by comparing their priorities, the condition does not include the situation when the two priorities are equal to each other.
