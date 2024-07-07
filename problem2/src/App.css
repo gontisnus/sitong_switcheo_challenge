@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #222; /* Black background color */
+  width: 100vw; /* Full width of the viewport */
+  height: 100vh; /* Full height of the viewport */
+}
+
+
+.item {
+  background-color: #222;
+  color:#ffffee;
+  border-radius: 8px;
+  border: 2px solid #ffffee;
+  padding: 20px;
+  width: 100%; /* Ensure card stretches to fit its container */
+  max-width: 400px; /* Example: limit form width to 400px */
+  margin: 100px auto; /* Center the form horizontally */
+  
+}
+
+.title {
+  font-size: 2.5em; 
+  padding-bottom: 20px;
+  padding-left: 20px; 
+  border-bottom: 2px solid #FFF;
+  color:#ffffee
+}
+
+.form_item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

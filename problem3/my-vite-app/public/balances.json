@@ -1,0 +1,7 @@
+[
+    { "currency": "ETH", "amount": 2, "blockchain": "Ethereum" },
+    { "currency": "BLUR", "amount": 0.5, "blockchain": "Osmosis" },
+    { "currency": "IBCX", "amount": 1000, "blockchain": "Ethereum" },
+    { "currency": "ZIL", "amount": 150, "blockchain": "Random" }
+  ]
+  
